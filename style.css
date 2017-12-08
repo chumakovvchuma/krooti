@@ -7,17 +7,18 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 .menu-frame {
-    background: pink;
+    background: greenyellow;
     border: 1px solid;
     min-width: 25px;
     min-height: 25px;
-    text-align: center;
     padding: 5px;
     width: 33%;
     height: 750px;
+    flex-direction: column;
 }
 
 .item-frame {
@@ -32,7 +33,7 @@ body {
 }
 
 .logo-frame {
-    background: pink;
+    background:white;
     border: 1px solid;
     min-width: 25px;
     min-height: 25px;
@@ -40,4 +41,22 @@ body {
     padding: 5px;
     width: 33%;
     height: 750px;
+}
+
+.logo{
+    border: 1px solid;
+    width: 400px;
+    height: 600px;
+    background: url(l1.png);
+
+}
+
+
+.nav{
+    
+    height: 100px;
+    width: 100%;
+    background: green;
+    border: 1px solid;
+
 }
