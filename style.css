@@ -1,0 +1,43 @@
+body {
+    background: url(fon.jpg);
+}
+
+.parent {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-frame {
+    background: pink;
+    border: 1px solid;
+    min-width: 25px;
+    min-height: 25px;
+    text-align: center;
+    padding: 5px;
+    width: 33%;
+    height: 750px;
+}
+
+.item-frame {
+    background: pink;
+    border: 1px solid;
+    min-width: 25px;
+    min-height: 25px;
+    text-align: center;
+    padding: 5px;
+    width: 33%;
+    height: 750px;
+}
+
+.logo-frame {
+    background: pink;
+    border: 1px solid;
+    min-width: 25px;
+    min-height: 25px;
+    text-align: center;
+    padding: 5px;
+    width: 33%;
+    height: 750px;
+}
